@@ -1,0 +1,69 @@
+.wrapper {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Header */
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+/* Day Card */
+.dayCard {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 18px;
+}
+
+.dayHeader {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Items */
+.item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+/* Leisure Highlight */
+.leisure {
+  background: #fff7ed;
+  color: #ea580c;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Meal */
+.meal {
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 14px;
+}

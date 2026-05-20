@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Traveler 15",
+    "text": "We value the feedback of our customers. Here are some of the experiences shared by them.",
+    "images": [
+      "https://picsum.photos/100/100?sig=15",
+      "https://picsum.photos/400/300?sig=20"
+    ]
+  },
+  {
+    "name": "Traveler 1",
+    "text": "Discover unforgettable experiences with India Travel Holiday. Whether it’s the snow-covered hills of Himachal or the vibrant streets of Rajasthan, we offer the most memorable journeys across India.",
+    "images": [
+      "https://picsum.photos/100/100?sig=1",
+      "https://picsum.photos/400/300?sig=6"
+    ]
+  },
+  {
+    "name": "Traveler 3",
+    "text": "Rajasthan’s royal palaces, majestic forts, and rich cultural heritage await you. Journey through this enchanting land and experience India’s heritage like never before.",
+    "images": [
+      "https://picsum.photos/100/100?sig=3",
+      "https://picsum.photos/400/300?sig=8"
+    ]
+  },
+  {
+    "name": "Traveler 7",
+    "text": "Adventure awaits! Our top travel packages are designed to offer you unique experiences  that you’ll cherish forever.",
+    "images": [
+      "https://picsum.photos/100/100?sig=7",
+      "https://picsum.photos/400/300?sig=12"
+    ]
+  },
+  {
+    "name": "Traveler 2",
+    "text": "Embark on a once-in-a-lifetime adventure to Spiti Valley. With its breathtaking landscapes and remote monasteries, Spiti offers an experience that will stay with you forever.",
+    "images": [
+      "https://picsum.photos/100/100?sig=2",
+      "https://picsum.photos/400/300?sig=7"
+    ]
+  }
+]

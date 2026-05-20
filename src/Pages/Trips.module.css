@@ -1,0 +1,159 @@
+.tripsPage {
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.heroSection {
+  height: 50vh;
+  background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.overlay h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 4% 100px;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectionHeader span {
+  display: inline-block;
+  background: rgba(15, 23, 42, 0.05);
+  color: #0f172a;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sectionHeader h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+}
+
+.toursSection {
+  margin-top: 80px;
+}
+
+.extraSection {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/* Category Grid */
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.catCard {
+  background: white;
+  padding: 30px;
+  border-radius: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #0f172a;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.catCard:hover {
+  transform: translateY(-10px);
+  background: #0f172a;
+  color: white;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Trust Banner */
+.trustBanner {
+  background: #020617;
+  padding: 60px;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.trustBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.trustItem h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.trustItem p {
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    height: 40vh;
+  }
+  
+  .trustBanner {
+    padding: 40px 20px;
+  }
+}

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "DELHI_2D",
+    "title": "Delhi Heritage Getaway",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&q=80&w=1000",
+    "images": [
+      "https://images.unsplash.com/photo-1592635196078-9fdc7f3f2182",
+      "https://images.unsplash.com/photo-1548013146-72479768bbaa",
+      "https://images.unsplash.com/photo-1620023412588-467f53a15865"
+    ],
+    "rating": 4.6,
+    "category": ["Heritage", "Culture", "History"],
+    "best_season": "October to March",
+    "duration": { "days": 2, "nights": 1 },
+    "pricing": { "price": 5999, "original_price": 7999 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 10,
+    "overview": "Explore Delhi’s Mughal and colonial heritage landmarks.",
+    "inclusions": ["Local sightseeing", "Private cab", "Tour guide"],
+    "exclusions": ["Entry tickets", "Personal expenses"],
+    "itinerary": [
+      { "day": 1, "title": "Old Delhi Walk", "places": [1, 4, 5] },
+      { "day": 2, "title": "New Delhi Monuments", "places": [2, 3] }
+    ],
+    "tourType":"Corporate"
+  },
+
+  {
+    "id": "MUMBAI_2D",
+    "title": "Mumbai City & Coastal Tour",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66",
+    "images": [
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f",
+      "https://images.unsplash.com/photo-1595658658481-d53d3f999875",
+      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd"
+    ],
+    "rating": 4.5,
+    "category": ["City Life", "Beach", "Nightlife"],
+    "best_season": "November to February",
+    "duration": { "days": 2, "nights": 1 },
+    "pricing": { "price": 7499, "original_price": 9999 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 12,
+    "overview": "Experience Mumbai’s coastal beauty, Bollywood vibe and city nightlife.",
+    "inclusions": ["Hotel stay", "City cab", "Gateway boat ride"],
+    "exclusions": ["Meals", "Personal shopping"],
+    "itinerary": [
+      { "day": 1, "title": "South Mumbai Tour", "places": [21, 22, 23] },
+      { "day": 2, "title": "Beach & Nightlife", "places": [24, 25] }
+    ]
+  },
+
+  {
+    "id": "VARANASI_2D",
+    "title": "Varanasi Spiritual Journey",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc",
+    "images": [
+      "https://images.unsplash.com/photo-1593073843550-c7969f624476",
+      "https://images.unsplash.com/photo-1518005020250-eccdd5f1d7cd"
+    ],
+    "rating": 4.7,
+    "category": ["Spiritual", "Culture"],
+    "best_season": "November to February",
+    "duration": { "days": 2, "nights": 1 },
+    "pricing": { "price": 7999, "original_price": 10999 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 6,
+    "overview": "Experience Varanasi’s sacred ghats and spiritual rituals.",
+    "inclusions": ["Boat ride", "Temple visit", "Local guide"],
+    "exclusions": ["Meals", "Personal rituals"],
+    "itinerary": [
+      { "day": 1, "title": "Ganga Aarti & Ghats", "places": [31] },
+      { "day": 2, "title": "Sarnath Visit", "places": [43] }
+    ]
+  },
+
+  {
+    "id": "HARIDWAR_2D",
+    "title": "Haridwar Ganga Retreat",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "country": "India",
+    "cover_image": "https://cdn.prod.website-files.com/6364d88dd010ce5c6f8aa8fc/6780d389efdb44cce38f313c_Best_Place_to_Stay_in_Haridwar3_88e480429a.webp",
+    "images": [
+      "https://images.unsplash.com/photo-1596176530529-78163a4f7af2",
+      "https://images.unsplash.com/photo-1627462851761-6c6df35fefc4"
+    ],
+    "rating": 4.5,
+    "category": ["Spiritual", "Nature"],
+    "best_season": "October to March",
+    "duration": { "days": 2, "nights": 1 },
+    "pricing": { "price": 5499, "original_price": 7499 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 5,
+    "overview": "Relax at the sacred Ganga ghats and enjoy evening aarti.",
+    "inclusions": ["Temple visits", "Local transport"],
+    "exclusions": ["Meals", "Personal expenses"],
+    "itinerary": [
+      { "day": 1, "title": "Har Ki Pauri Aarti", "places": [51] },
+      { "day": 2, "title": "Rishikesh Visit", "places": [52] }
+    ]
+  },
+
+  {
+    "id": "JAIPUR_2D",
+    "title": "Jaipur Royal Experience",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
+    "images": [
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245",
+      "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33"
+    ],
+    "rating": 4.4,
+    "category": ["Heritage", "Architecture"],
+    "best_season": "October to March",
+    "duration": { "days": 2, "nights": 1 },
+    "pricing": { "price": 6999, "original_price": 9499 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 15,
+    "overview": "Discover Jaipur’s forts, palaces and pink city heritage.",
+    "inclusions": ["Hotel stay", "Sightseeing cab"],
+    "exclusions": ["Entry tickets", "Meals"],
+    "itinerary": [
+      { "day": 1, "title": "City Palace Tour", "places": [10, 11] },
+      { "day": 2, "title": "Amer & Nahargarh Fort", "places": [14, 15] }
+    ]
+  },
+
+  {
+    "id": "HIMACHAL_3D",
+    "title": "Himachal Snow & Valley Tour",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766",
+    "images": [
+      "https://images.unsplash.com/photo-1593181629936-11c609b8db9b",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa"
+    ],
+    "rating": 4.8,
+    "category": ["Mountains", "Adventure", "Nature"],
+    "best_season": "December to February",
+    "duration": { "days": 3, "nights": 2 },
+    "pricing": { "price": 9999, "original_price": 13999 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 20,
+    "overview": "Enjoy snow valleys, mountain adventures and scenic landscapes.",
+    "inclusions": ["Hotel stay", "Breakfast", "Adventure activities"],
+    "exclusions": ["Entry fees", "Personal gear"],
+    "itinerary": [
+      { "day": 1, "title": "Manali Arrival & Local Tour", "places": [61] },
+      { "day": 2, "title": "Solang Valley Adventure", "places": [62] },
+      { "day": 3, "title": "Rohtang Pass Visit", "places": [63] }
+    ]
+  },
+
+  {
+    "id": "KERALA_3D",
+    "title": "Kerala Backwater Escape",
+    "city": "Alleppey",
+    "state": "Kerala",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2",
+    "images": [
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944",
+      "https://images.unsplash.com/photo-1593693411515-c20261bcad6e"
+    ],
+    "rating": 4.7,
+    "category": ["Nature", "Backwaters", "Relaxation"],
+    "best_season": "September to March",
+    "duration": { "days": 3, "nights": 2 },
+    "pricing": { "price": 10999, "original_price": 14999 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 18,
+    "overview": "Relax in Kerala houseboats and explore scenic backwaters.",
+    "inclusions": ["Houseboat stay", "All meals"],
+    "exclusions": ["Personal activities"],
+    "itinerary": [
+      { "day": 1, "title": "Cochin Arrival", "places": [71] },
+      { "day": 2, "title": "Houseboat Experience", "places": [72] },
+      { "day": 3, "title": "Village Tour", "places": [73] }
+    ]
+  },
+
+  {
+    "id": "GOA_3D",
+    "title": "Goa Beach & Party Trip",
+    "city": "Goa",
+    "state": "Goa",
+    "country": "India",
+    "cover_image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "images": [
+      "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+      "https://images.unsplash.com/photo-1526481280691-7816d96a5b66"
+    ],
+    "rating": 4.6,
+    "category": ["Beach", "Nightlife", "Adventure"],
+    "best_season": "November to February",
+    "duration": { "days": 3, "nights": 2 },
+    "pricing": { "price": 8999, "original_price": 11999 },
+    "support": { "call": "+911234567890" },
+    "wishlist_enabled": true,
+    "cover_radius_km": 25,
+    "overview": "Enjoy Goa’s beaches, nightlife and water sports.",
+    "inclusions": ["Beach stay", "Water sports session"],
+    "exclusions": ["Personal shopping", "Alcohol"],
+    "itinerary": [
+      { "day": 1, "title": "North Goa Beaches", "places": [81] },
+      { "day": 2, "title": "Water Sports & Cruise", "places": [82] },
+      { "day": 3, "title": "South Goa Churches & Relax", "places": [83] }
+    ]
+  }
+]

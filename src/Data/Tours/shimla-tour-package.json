@@ -1,0 +1,104 @@
+{
+  "slug": "shimla-tour-package",
+  "place": "Shimla",
+  "title": "Shimla Tour Package",
+  "subtitle": "India | Travel | Holiday Dream  Explore  Discover...",
+  "duration": "India | Travel | Holiday Dream  Explore  Discover",
+  "starting_price": 15577,
+  "original_price": 18344,
+  "currency": "INR",
+  "rating": 4.7511989535261625,
+  "total_reviews": 122,
+  "images": {
+    "cover": "https://picsum.photos/1200/600?shimla-tour-package",
+    "gallery": [
+      "https://picsum.photos/600/400?shimla-tour-package1",
+      "https://picsum.photos/600/400?shimla-tour-package2",
+      "https://picsum.photos/600/400?shimla-tour-package3",
+      "https://picsum.photos/600/400?shimla-tour-package4"
+    ]
+  },
+  "highlights": [
+    "Embark on an unforgettable journey through the serene beauty of Shimla and its captivating surroundings. Day 1 begins with a fascinating exploration of Shimla's landmarks, including the prestigious Indian Institute of Advanced Studies, the tranquil Sankat Mochan Temple, and the awe-inspiring Jakhu Temple. As the evening sets in, immerse yourself in the lively ambiance of The Mall and The Ridge, renowned hubs for shopping and leisure.Day 2 offers a thrilling excursion to the charming hill stations of Kufri and Mashobra, where you'll be mesmerized by the lush landscapes and breathtaking views. Return to Shimla in the afternoon to relax and unwind amidst the tranquility of your hotel surroundings.On Day 3, bid adieu to Shimla after a leisurely morning exploring the city's bustling streets and indulging in some final shopping delights. Depart from your hotel with cherished memories in tow, as you board the comfortable AC Volvo bus for your onward or return journey to Delhi. Your journey concludes, but the enchanting experiences of Shimla and its neighboring treasures will linger in your heart forever."
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Day 1 -  Arrival in Shimla",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Day 2 -  Shimla & Kufri Sightseeing",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Day 3 - Shimla To Delhi.",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    }
+  ],
+  "inclusions": [
+    "Specilaized Bilingual Guide",
+    "Private Transport",
+    "Entrance Fees",
+    "Accommodation in Hotel as per the variant selected",
+    "Breakfast and Dinner as mentioned in the variant",
+    "Highly-Experienced driver cum guide",
+    "Sightseeing as per itinerary",
+    "All toll tax, parking, fuel and driver allowances",
+    "All applicable taxes",
+    "Comfortable and hygienic vehicle (AC Sedan/SUV/Traveler) for sightseeing on all days as per the itinerary"
+  ],
+  "exclusions": [
+    "Entrance fees",
+    "Laundry & Laundry",
+    "Tips"
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time for Shimla?",
+      "answer": "For pleasant weather, visit between March and June."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Breakfast and dinner are typically included in most packages."
+    },
+    {
+      "question": "Is it safe for solo travelers?",
+      "answer": "Yes, our guides ensure a very safe environment for everyone."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Happy Guest 3",
+      "text": "Rajasthan’s royal palaces, majestic forts, and rich cultural heritage await you. Journey through this enchanting land and experience India’s heritage like never before.",
+      "images": [
+        "https://picsum.photos/100/100?sig=2",
+        "https://picsum.photos/400/300?sig=12"
+      ]
+    },
+    {
+      "name": "Happy Guest 2",
+      "text": "Embark on a once-in-a-lifetime adventure to Spiti Valley. With its breathtaking landscapes and remote monasteries, Spiti offers an experience that will stay with you forever.",
+      "images": [
+        "https://picsum.photos/100/100?sig=1",
+        "https://picsum.photos/400/300?sig=11"
+      ]
+    },
+    {
+      "name": "Happy Guest 1",
+      "text": "Discover unforgettable experiences with India Travel Holiday. Whether it’s the snow-covered hills of Himachal or the vibrant streets of Rajasthan, we offer the most memorable journeys across India.",
+      "images": [
+        "https://picsum.photos/100/100?sig=0",
+        "https://picsum.photos/400/300?sig=10"
+      ]
+    }
+  ]
+}

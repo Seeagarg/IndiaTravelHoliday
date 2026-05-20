@@ -1,0 +1,147 @@
+{
+  "slug": "heaven-himachal-tour-package",
+  "place": "Heaven",
+  "title": "Heaven Himachal Tour Package",
+  "subtitle": "India | Travel | Holiday Dream  Explore  Discover...",
+  "duration": "India | Travel | Holiday Dream  Explore  Discover",
+  "starting_price": 10709,
+  "original_price": 14219,
+  "currency": "INR",
+  "rating": 4.702866054389144,
+  "total_reviews": 928,
+  "images": {
+    "cover": "https://picsum.photos/1200/600?heaven-himachal-tour-package",
+    "gallery": [
+      "https://picsum.photos/600/400?heaven-himachal-tour-package1",
+      "https://picsum.photos/600/400?heaven-himachal-tour-package2",
+      "https://picsum.photos/600/400?heaven-himachal-tour-package3",
+      "https://picsum.photos/600/400?heaven-himachal-tour-package4"
+    ]
+  },
+  "highlights": [
+    "Visit places like Green Valley,Kufri,Indira tourist park, Himalayan Nature park at Chini banglow and Fagu valley.There are other places to see in Shimla palces like Chail, Naldehara,Nakanda and Tatapani. Manali is 280 k.m. from shimla journey time up to 9 hours, see on the way places like Sunder Nagar lake, Pandoh dam, Vaishno Devi Temple at Kullu. At Manali visit “HADIMBA TEMPLE” Built in 1553 with a superbly crafted four tiered pagoda roof, it is famous for its exquisitely carved doorway .",
+    "Attractions : Shimla, Kufri, Manali, Solang Valley, Dharmshala, Dalhousie, Khajjiar"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Day 1 - Delhi to Shimla",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Day 2 - Shimla Kufri sightseeing",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Day 3 - Shimla to Manali",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Day 4 - Manali Local sight seeing",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Day 5 - Solang Valley Sightseeing",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Day 6 - Manali to Dharamshala",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Day 7 - Half Day Dharamshala Sightseeing & Depart to Delhousie",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Day 8 - Full day excursion to Kalatope & Khajjiar",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Day 9 - Dalhousie to Delhi",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    }
+  ],
+  "inclusions": [
+    "Specilaized Bilingual Guide",
+    "Private Transport",
+    "Entrance Fees",
+    "Accommodation in Hotel as per the variant selected",
+    "Breakfast and Dinner as mentioned in the variant",
+    "Highly-Experienced driver cum guide",
+    "Sightseeing as per itinerary",
+    "All toll tax, parking, fuel and driver allowances",
+    "All applicable taxes",
+    "Comfortable and hygienic vehicle (AC Sedan/SUV/Traveler) for sightseeing on all days as per the itinerary"
+  ],
+  "exclusions": [
+    "Entrance fees",
+    "Laundry & Laundry",
+    "Tips"
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time for Heaven?",
+      "answer": "For pleasant weather, visit between March and June."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Breakfast and dinner are typically included in most packages."
+    },
+    {
+      "question": "Is it safe for solo travelers?",
+      "answer": "Yes, our guides ensure a very safe environment for everyone."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Happy Guest 3",
+      "text": "Rajasthan’s royal palaces, majestic forts, and rich cultural heritage await you. Journey through this enchanting land and experience India’s heritage like never before.",
+      "images": [
+        "https://picsum.photos/100/100?sig=2",
+        "https://picsum.photos/400/300?sig=12"
+      ]
+    },
+    {
+      "name": "Happy Guest 2",
+      "text": "Embark on a once-in-a-lifetime adventure to Spiti Valley. With its breathtaking landscapes and remote monasteries, Spiti offers an experience that will stay with you forever.",
+      "images": [
+        "https://picsum.photos/100/100?sig=1",
+        "https://picsum.photos/400/300?sig=11"
+      ]
+    },
+    {
+      "name": "Happy Guest 1",
+      "text": "Discover unforgettable experiences with India Travel Holiday. Whether it’s the snow-covered hills of Himachal or the vibrant streets of Rajasthan, we offer the most memorable journeys across India.",
+      "images": [
+        "https://picsum.photos/100/100?sig=0",
+        "https://picsum.photos/400/300?sig=10"
+      ]
+    }
+  ]
+}

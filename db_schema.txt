@@ -1,0 +1,125 @@
+DATABASE SCHEMA FOR TOURS AND TRAVELS APPLICATION
+=====================================================
+
+This schema is designed based on the existing JSON data structures in the 'src/Data' directory.
+
+---
+1. RELATIONAL DATABASE SCHEMA (SQL)
+---
+
+TABLE: tour_categories
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- name: VARCHAR(100) NOT NULL (e.g., 'Couples Package', 'Group Tour')
+
+TABLE: destinations (Matches the India Tab section)
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- internal_id: VARCHAR(50) UNIQUE (e.g., 'delhi', 'kashmir')
+- label: VARCHAR(100)
+- icon_url: TEXT
+- is_featured: BOOLEAN DEFAULT TRUE
+
+TABLE: tours
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- slug: VARCHAR(255) UNIQUE NOT NULL (e.g., 'heaven-himachal-tour-package')
+- title: VARCHAR(255) NOT NULL
+- subtitle: TEXT
+- destination_id: INT (FOREIGN KEY -> destinations.id)
+- place_name: VARCHAR(100) (The city/region for filtering, e.g., 'Shimla', 'Delhi')
+- duration_text: VARCHAR(255) (e.g., '3 Days, 2 Nights')
+- starting_price: DECIMAL(10, 2)
+- original_price: DECIMAL(10, 2)
+- currency: VARCHAR(10) DEFAULT 'INR'
+- rating: FLOAT DEFAULT 0.0
+- total_reviews: INT DEFAULT 0
+- cover_image: TEXT
+- overview_text: TEXT
+- highlights: JSON (Array of strings) OR linked table
+- created_at: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+TABLE: tour_images
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- tour_id: INT (FOREIGN KEY -> tours.id)
+- image_url: TEXT
+- is_cover: BOOLEAN DEFAULT FALSE
+
+TABLE: tour_itinerary
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- tour_id: INT (FOREIGN KEY -> tours.id)
+- day_number: INT
+- title: VARCHAR(255)
+- activities: JSON (Array of strings describing what happens this day)
+
+TABLE: tour_provisions (Inclusions/Exclusions)
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- tour_id: INT (FOREIGN KEY -> tours.id)
+- type: ENUM('inclusion', 'exclusion')
+- content: TEXT
+
+TABLE: tour_faqs
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- tour_id: INT (FOREIGN KEY -> tours.id)
+- question: TEXT
+- answer: TEXT
+
+TABLE: tour_reviews
+- id: INT PRIMARY KEY (AUTO_INCREMENT)
+- tour_id: INT (FOREIGN KEY -> tours.id)
+- user_name: VARCHAR(100)
+- review_text: TEXT
+- images: JSON (Array of image URLs attached to review)
+- rating: INT (optional)
+
+---
+2. DOCUMENT DATABASE SCHEMA (NoSQL - MongoDB)
+---
+
+Collection: tours
+{
+  "_id": ObjectId,
+  "slug": "heaven-himachal-tour-package",
+  "title": "Heaven Himachal Tour Package",
+  "place": "Shimla",
+  "pricing": {
+    "starting": 10709,
+    "original": 14219,
+    "currency": "INR"
+  },
+  "rating": {
+    "average": 4.7,
+    "total_reviews": 928
+  },
+  "images": {
+    "cover": "url",
+    "gallery": ["url1", "url2"]
+  },
+  "categories": ["Heritage", "Culture"],
+  "highlights": ["..."],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Day Title",
+      "activities": ["Activity 1", "Activity 2"]
+    }
+  ],
+  "inclusions": ["..."],
+  "exclusions": ["..."],
+  "faqs": [
+    { "question": "...", "answer": "..." }
+  ],
+  "reviews": [
+    {
+      "name": "Guest Name",
+      "text": "...",
+      "images": ["url"]
+    }
+  ]
+}
+
+---
+3. MAPPING JSON TO DB
+---
+- data.json: Maps to the 'tours' table summary and categories.
+- Detail.json: Provides the deep data for 'tours', 'itinerary', 'inclusions', 'exclusions', 'highlights'.
+- FAQs.json: Maps to the 'tour_faqs' table.
+- Reviews.json: Maps to the 'tour_reviews' table.
+- types.json: Populates the 'tour_categories' table.

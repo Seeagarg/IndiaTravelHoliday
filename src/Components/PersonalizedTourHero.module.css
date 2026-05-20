@@ -1,0 +1,92 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  background:
+    linear-gradient(rgba(255,255,255,0.96), rgba(255,255,255,0.96)),
+    url("/images/world-map.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* CENTER */
+.center {
+  text-align: center;
+  max-width: 640px;
+}
+
+.center h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.center span {
+  color: #ff9800;
+}
+
+.center p {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* LEFT & RIGHT */
+.left,
+.right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* IMAGES */
+.imgSm {
+  width: 80px;
+  height: 80px;
+}
+
+.imgMd {
+  width: 110px;
+  height: 110px;
+}
+
+.imgLg {
+  width: 150px;
+  height: 150px;
+}
+
+.left img,
+.right img {
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.18);
+}
+
+/* LABELS */
+.label {
+  align-self: flex-start;
+  background: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .left,
+  .right {
+    display: none;
+  }
+
+  .center h1 {
+    font-size: 2.4rem;
+  }
+}

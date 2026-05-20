@@ -1,0 +1,125 @@
+{
+  "slug": "nainital-auli-tour-package",
+  "place": "Nainital",
+  "title": "Nainital Auli Tour Package",
+  "subtitle": "India | Travel | Holiday Dream  Explore  Discover...",
+  "duration": "India | Travel | Holiday Dream  Explore  Discover",
+  "starting_price": 8503,
+  "original_price": 12021,
+  "currency": "INR",
+  "rating": 4.839568952494942,
+  "total_reviews": 690,
+  "images": {
+    "cover": "https://picsum.photos/1200/600?nainital-auli-tour-package",
+    "gallery": [
+      "https://picsum.photos/600/400?nainital-auli-tour-package1",
+      "https://picsum.photos/600/400?nainital-auli-tour-package2",
+      "https://picsum.photos/600/400?nainital-auli-tour-package3",
+      "https://picsum.photos/600/400?nainital-auli-tour-package4"
+    ]
+  },
+  "highlights": [
+    "Embark on an unforgettable journey through the picturesque landscapes of Uttarakhand with our Delhi to Nainital, Haridwar to Nainital via Almora, Kausani to Joshimath, and excursion to Auli, culminating in Joshimath to Rishikesh. Immerse yourself in the tranquility of Nainital's emerald lakes and lush forests before venturing through the sacred city of Haridwar to the scenic beauty of Almora. Witness the majestic peaks of Kausani and indulge in the breathtaking vistas of Auli during an exhilarating excursion. Conclude your adventure with a serene journey from the spiritual hub of Joshimath to the holy city of Rishikesh, where the tranquil Ganges River awaits to rejuvenate your soul. Experience the essence of Uttarakhand's natural beauty and spiritual heritage on this unforgettable tour."
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Day 1 - Delhi yo Nainital",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Day 2 - Haridwar - Nainital to Kausani via Almora",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Day 3 - Kausani to Joshimath",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Day 4 - Excursion to Auli",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Day 5 - Joshimath to Rishikesh",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Day 6 - Rishikesh sightseeing and departure to Delhi",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    }
+  ],
+  "inclusions": [
+    "Specilaized Bilingual Guide",
+    "Private Transport",
+    "Entrance Fees",
+    "Accommodation in Hotel as per the variant selected",
+    "Breakfast and Dinner as mentioned in the variant",
+    "Highly-Experienced driver cum guide",
+    "Sightseeing as per itinerary",
+    "All toll tax, parking, fuel and driver allowances",
+    "All applicable taxes",
+    "Comfortable and hygienic vehicle (AC Sedan/SUV/Traveler) for sightseeing on all days as per the itinerary"
+  ],
+  "exclusions": [
+    "Entrance fees",
+    "Laundry & Laundry",
+    "Tips"
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time for Nainital?",
+      "answer": "For pleasant weather, visit between March and June."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Breakfast and dinner are typically included in most packages."
+    },
+    {
+      "question": "Is it safe for solo travelers?",
+      "answer": "Yes, our guides ensure a very safe environment for everyone."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Happy Guest 4",
+      "text": "Sunshine, beaches, backwaters, and serenity. Discover the beauty of Kerala and Goa with our tailored tours that bring you the best of India’s coastal paradise.",
+      "images": [
+        "https://picsum.photos/100/100?sig=3",
+        "https://picsum.photos/400/300?sig=13"
+      ]
+    },
+    {
+      "name": "Happy Guest 1",
+      "text": "Discover unforgettable experiences with India Travel Holiday. Whether it’s the snow-covered hills of Himachal or the vibrant streets of Rajasthan, we offer the most memorable journeys across India.",
+      "images": [
+        "https://picsum.photos/100/100?sig=0",
+        "https://picsum.photos/400/300?sig=10"
+      ]
+    },
+    {
+      "name": "Happy Guest 2",
+      "text": "Embark on a once-in-a-lifetime adventure to Spiti Valley. With its breathtaking landscapes and remote monasteries, Spiti offers an experience that will stay with you forever.",
+      "images": [
+        "https://picsum.photos/100/100?sig=1",
+        "https://picsum.photos/400/300?sig=11"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+.backgroundContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+    background-color: #ffffff;
+    /* Global site background */
+}
+
+.silhouettes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.landmark {
+    position: absolute;
+    color: #ffd8a8;
+    /* Elegant peach landmark color */
+    opacity: 0.7;
+    /* Balanced visibility */
+    animation: fadeIn 2s ease-out;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.02));
+}
+
+.cloud {
+    position: absolute;
+    color: #e2e8f0;
+    /* Soft grey from image */
+    opacity: 0.5;
+    animation: float 15s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 0.18;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(30px, -10px);
+    }
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .landmark {
+        opacity: 0.1;
+    }
+
+    .cloud {
+        opacity: 0.1;
+    }
+}

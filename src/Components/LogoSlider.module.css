@@ -1,0 +1,55 @@
+.container{
+    padding: 0rem 4rem;
+}
+
+.logoMarqueeWrapper {
+  position: relative;
+  padding: 30px 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+/* Fade edges */
+.logoMarqueeWrapper::before,
+.logoMarqueeWrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logoMarqueeWrapper::before {
+  left: 0;
+  background: linear-gradient(to right, #fff, transparent);
+}
+
+.logoMarqueeWrapper::after {
+  right: 0;
+  background: linear-gradient(to left, #fff, transparent);
+}
+
+.logoSlide {
+  width: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoSlide img {
+  height: 48px;              /* unified height */
+  max-width: 140px;
+  object-fit: contain;
+  /* opacity: 0.6; */
+  /* filter: grayscale(100%); */
+  transition: all 0.3s ease;
+  background: none;
+}
+
+.logoSlide img:hover {
+  opacity: 1;
+  /* filter: grayscale(0%); */
+  transform: scale(1.05);
+}

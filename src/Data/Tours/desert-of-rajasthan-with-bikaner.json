@@ -1,0 +1,132 @@
+{
+  "slug": "desert-of-rajasthan-with-bikaner",
+  "place": "Rajasthan",
+  "title": "Deserts Of Rajasthan With Bikaner",
+  "subtitle": "India | Travel | Holiday Dream  Explore  Discover...",
+  "duration": "India | Travel | Holiday Dream  Explore  Discover",
+  "starting_price": 11312,
+  "original_price": 14421,
+  "currency": "INR",
+  "rating": 4.674727256176849,
+  "total_reviews": 463,
+  "images": {
+    "cover": "https://picsum.photos/1200/600?desert-of-rajasthan-with-bikaner",
+    "gallery": [
+      "https://picsum.photos/600/400?desert-of-rajasthan-with-bikaner1",
+      "https://picsum.photos/600/400?desert-of-rajasthan-with-bikaner2",
+      "https://picsum.photos/600/400?desert-of-rajasthan-with-bikaner3",
+      "https://picsum.photos/600/400?desert-of-rajasthan-with-bikaner4"
+    ]
+  },
+  "highlights": [
+    "Visit the World’s Largest Desert Living Fort - Jaisalmer Fort, and listen to the folk tales by the locals residing in the fort Sit on the edge of the walls of the Nahargarh Fort and admire the pink city with the sunset overlooking you Visit one of the most preserved and largest forts of India, Mehrangarh Fort, Jodhpur and take pictures of the vibrant blue city from the top Admire the beauty of Amer Fort by visiting the most authentic Sheesh Mahal where the legendary song ‘Pyaar kiya toh darna kya’ was shot Dance on the Rajasthani beats in the local attire with the local Cultural Folk Dancers while having sizzling barbeque in the vivid desert."
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Day 1 - Arrival at Jaipur",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Day 2 - Sightseeing in Jaipur",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Day 3 - Jaipur to Bikaner",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Day 4 - Bikaner to Jaisalmer",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Day 5 - Sightseeing in Jaisalmer",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Day 6 - Jaisalmer to Jodhpur",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Day 7 - Jodhpur to Jaipur and Departure",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    }
+  ],
+  "inclusions": [
+    "Specilaized Bilingual Guide",
+    "Private Transport",
+    "Entrance Fees",
+    "Accommodation in Hotel as per the variant selected",
+    "Breakfast and Dinner as mentioned in the variant",
+    "Highly-Experienced driver cum guide",
+    "Sightseeing as per itinerary",
+    "All toll tax, parking, fuel and driver allowances",
+    "All applicable taxes",
+    "Comfortable and hygienic vehicle (AC Sedan/SUV/Traveler) for sightseeing on all days as per the itinerary"
+  ],
+  "exclusions": [
+    "Entrance fees",
+    "Laundry & Laundry",
+    "Tips"
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time for Rajasthan?",
+      "answer": "For pleasant weather, visit between March and June."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Breakfast and dinner are typically included in most packages."
+    },
+    {
+      "question": "Is it safe for solo travelers?",
+      "answer": "Yes, our guides ensure a very safe environment for everyone."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Happy Guest 4",
+      "text": "Sunshine, beaches, backwaters, and serenity. Discover the beauty of Kerala and Goa with our tailored tours that bring you the best of India’s coastal paradise.",
+      "images": [
+        "https://picsum.photos/100/100?sig=3",
+        "https://picsum.photos/400/300?sig=13"
+      ]
+    },
+    {
+      "name": "Happy Guest 1",
+      "text": "Discover unforgettable experiences with India Travel Holiday. Whether it’s the snow-covered hills of Himachal or the vibrant streets of Rajasthan, we offer the most memorable journeys across India.",
+      "images": [
+        "https://picsum.photos/100/100?sig=0",
+        "https://picsum.photos/400/300?sig=10"
+      ]
+    },
+    {
+      "name": "Happy Guest 3",
+      "text": "Rajasthan’s royal palaces, majestic forts, and rich cultural heritage await you. Journey through this enchanting land and experience India’s heritage like never before.",
+      "images": [
+        "https://picsum.photos/100/100?sig=2",
+        "https://picsum.photos/400/300?sig=12"
+      ]
+    }
+  ]
+}

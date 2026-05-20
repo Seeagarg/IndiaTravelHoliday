@@ -1,0 +1,173 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  height: 200px; /* Increased height to accommodate scaling without clipping */
+  background: transparent;
+}
+
+/* ================= DESKTOP ================= */
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 70%;
+  transition: transform 1s ease;
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel:active {
+  cursor: grabbing;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 16px;
+  transition: all 1s ease;
+  transform: scale(0.7);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 50%;
+  height: 3px;
+  background: #ff8a00;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.tab img {
+  height: 4rem;
+  width: 6rem;
+  object-fit: contain;
+}
+
+.tab span {
+  font-size: 20px;
+  width: 100%;
+}
+
+/* .active definition removed from here, handled at the bottom */
+
+/* .active span::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  width: 40px;
+  height: 4px;
+  background: #ff8a00;
+  border-radius: 4px;
+} */
+
+/* ================= ARROWS ================= */
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s ease;
+}
+
+.arrowLeft {
+  left: 3rem;
+}
+
+.arrowRight {
+  right: 3rem;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .wrapper {
+    height: 130px;
+  }
+
+  .carousel {
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab {
+    flex: 0 0 auto;
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .active {
+    transform: scale(1);
+    background: transparent;
+  }
+
+  .arrowLeft {
+    left: 0.5rem;
+  }
+
+  .arrowRight {
+    right: 0.5rem;
+  }
+}
+
+
+
+
+/* .tab definition removed from here, handled at the top */
+
+/* 🔥 ACTIVE TAB */
+.active,
+.center {
+  transform: scale(1.4);
+  z-index: 5;
+  background: transparent !important;
+  color: #ff8a00 !important; /* Move color to center/big tab */
+}
+
+.center span {
+  color: #ff8a00 !important;
+  font-weight: 600;
+}
+
+.center::after {
+  transform: translateX(-50%) scaleX(1) !important;
+}
+
+@media (max-width: 768px) {
+  .selected {
+    color: #ff8a00 !important;
+  }
+  .selected span {
+    color: #ff8a00 !important;
+    font-weight: 600;
+  }
+}

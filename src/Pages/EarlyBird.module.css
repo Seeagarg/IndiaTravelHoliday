@@ -1,0 +1,391 @@
+.pageWrapper {
+    background: #ffffff;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    min-height: 600px;
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1436491865332-7a61a109c0f3?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.heroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(88, 28, 135, 0.4));
+}
+
+.heroContent {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    padding: 0 1rem;
+}
+
+.badge {
+    background: #f59e0b;
+    color: #1e293b;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero h1 span {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.timerContainer {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.timerItem {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.timerItem span {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.timerItem small {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+}
+
+/* Benefits */
+.benefits {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sectionHeader h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1e293b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sectionHeader h2 span {
+    color: #f59e0b;
+}
+
+.benefitsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+}
+
+.benefitCard {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.4s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.benefitCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05);
+    border-color: #f59e0b;
+}
+
+.benefitIcon {
+    width: 70px;
+    height: 70px;
+    background: #fef3c7;
+    color: #f59e0b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto 1.5rem;
+}
+
+.benefitCard h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.benefitCard p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Deals Grid */
+.dealsSection {
+    padding: 100px 0;
+}
+
+.dealsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.dealCard {
+    background: white;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f1f5f9;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dealCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.08);
+}
+
+.imgWrapper {
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.dealCard:hover .imgWrapper img {
+    transform: scale(1.1);
+}
+
+.discountBadge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ef4444;
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    box-shadow: 0 10px 20px rgba(239, 68, 68, 0.3);
+}
+
+.cardBody {
+    padding: 2.5rem;
+}
+
+.tagList {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cardBody h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+.validity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.priceRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #f59e0b;
+}
+
+.old {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    text-decoration: line-through;
+}
+
+.bookBtn {
+    background: #1e293b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bookBtn:hover {
+    background: #f59e0b;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(245, 158, 11, 0.2);
+}
+
+/* CTA Section */
+.ctaSection {
+    background: #1e293b;
+    padding: 120px 2rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.ctaSection::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 70%);
+    top: -300px;
+    right: -200px;
+}
+
+.ctaContent {
+    position: relative;
+    z-index: 5;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ctaContent h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ctaContent p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+}
+
+.mainCta {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #1e293b;
+    border: none;
+    padding: 1.25rem 3.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 15px 30px rgba(245, 158, 11, 0.3);
+}
+
+.mainCta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(245, 158, 11, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .timerContainer {
+        gap: 1rem;
+    }
+
+    .timerItem {
+        width: 80px;
+        height: 80px;
+    }
+
+    .timerItem span {
+        font-size: 1.5rem;
+    }
+
+    .sectionHeader h2 {
+        font-size: 2rem;
+    }
+
+    .ctaContent h2 {
+        font-size: 2.2rem;
+    }
+}

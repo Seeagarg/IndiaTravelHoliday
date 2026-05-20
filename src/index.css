@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;
+  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1e293b;
+  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================= REVEAL ANIMATIONS ================= */
+.reveal {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translate(0, 0) scale(1) !important;
+}
+
+.reveal-up {
+  transform: translateY(50px);
+}
+
+.reveal-down {
+  transform: translateY(-50px);
+}
+
+.reveal-left {
+  transform: translateX(-50px);
+}
+
+.reveal-right {
+  transform: translateX(50px);
+}
+
+.reveal-scale {
+  transform: scale(0.9);
+}
+
+/* Delay Utilities */
+.delay-100 {
+  transition-delay: 0.1s;
+}
+
+.delay-200 {
+  transition-delay: 0.2s;
+}
+
+.delay-300 {
+  transition-delay: 0.3s;
+}
+
+.delay-400 {
+  transition-delay: 0.4s;
+}
+
+.delay-500 {
+  transition-delay: 0.5s;
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ================= SECTION STYLING ================= */
+.section-white {
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.section-gray {
+  background-color: #f1f5f9;
+  /* Slightly darker for better contrast */
+  /* padding: 80px 0px; */
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.section-alternate {
+  background-color: #f8fafc;
+  padding: 80px 20px;
+}
+
+.section-dark {
+  background-color: #0f172a;
+  padding: 100px 20px;
+  color: #ffffff;
+}
+
+.container-wide {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Card separation Utility */
+.component-card {
+  background: #ffffff;
+  border-radius: 30px;
+  /* padding: 40px; */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(0, 139, 132, 0.25);
+  outline-offset: 2px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* padding: 1rem; */
+  /* background: #444; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%; */
+  /* height: 100%; */
+  object-fit: cover;
+
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+
+.swiper-navigation-icon {
+  padding: 12px !important;
+  /* background-color: #fff; */
+  /* border-radius: 50%; */
+  /* color: #000; */
+}

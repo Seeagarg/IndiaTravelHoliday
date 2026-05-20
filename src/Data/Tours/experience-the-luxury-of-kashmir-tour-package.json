@@ -1,0 +1,118 @@
+{
+  "slug": "experience-the-luxury-of-kashmir-tour-package",
+  "place": "Kashmir",
+  "title": "Experience the Luxury of Kashmir Tour Package",
+  "subtitle": "India | Travel | Holiday Dream  Explore  Discover...",
+  "duration": "India | Travel | Holiday Dream  Explore  Discover",
+  "starting_price": 8280,
+  "original_price": 11486,
+  "currency": "INR",
+  "rating": 4.770996000749889,
+  "total_reviews": 859,
+  "images": {
+    "cover": "https://picsum.photos/1200/600?experience-the-luxury-of-kashmir-tour-package",
+    "gallery": [
+      "https://picsum.photos/600/400?experience-the-luxury-of-kashmir-tour-package1",
+      "https://picsum.photos/600/400?experience-the-luxury-of-kashmir-tour-package2",
+      "https://picsum.photos/600/400?experience-the-luxury-of-kashmir-tour-package3",
+      "https://picsum.photos/600/400?experience-the-luxury-of-kashmir-tour-package4"
+    ]
+  },
+  "highlights": [
+    "Witness the white landscapes of snow-clad terrains from the comfort of your luxurious stays Journey to the clouds on gondola, Asia’s highest cable car ride, as you discover the breathtaking beauty of Gulmarg from above Ride in a Shikara boat across the calm waters of the Dal Lake, reflecting the snowscapes of the Himalayan mountains Revel in sheer luxury as you step aboard your lavish houseboat stay on the calm waters of Srinagar Enjoy the finest comfort and luxury through this carefully crafted package tailored by experts without comprising the sightseeing experience"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Day 1 -  Arrival in Srinagar",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Day 2 -  Srinagar to Pahalgam",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Day 3 - Pahalgam to Srinagar",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Day 4 - Excursion to Gulmarg",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Day 5 - Departure from Srinagar",
+      "activities": [
+        "Sightseeing and exploration"
+      ]
+    }
+  ],
+  "inclusions": [
+    "Specilaized Bilingual Guide",
+    "Private Transport",
+    "Entrance Fees",
+    "Accommodation in Hotel as per the variant selected",
+    "Breakfast and Dinner as mentioned in the variant",
+    "Highly-Experienced driver cum guide",
+    "Sightseeing as per itinerary",
+    "All toll tax, parking, fuel and driver allowances",
+    "All applicable taxes",
+    "Comfortable and hygienic vehicle (AC Sedan/SUV/Traveler) for sightseeing on all days as per the itinerary"
+  ],
+  "exclusions": [
+    "Entrance fees",
+    "Laundry & Laundry",
+    "Tips"
+  ],
+  "faqs": [
+    {
+      "question": "What is the best time for Kashmir?",
+      "answer": "For pleasant weather, visit between March and June."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Breakfast and dinner are typically included in most packages."
+    },
+    {
+      "question": "Is it safe for solo travelers?",
+      "answer": "Yes, our guides ensure a very safe environment for everyone."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Happy Guest 3",
+      "text": "Rajasthan’s royal palaces, majestic forts, and rich cultural heritage await you. Journey through this enchanting land and experience India’s heritage like never before.",
+      "images": [
+        "https://picsum.photos/100/100?sig=2",
+        "https://picsum.photos/400/300?sig=12"
+      ]
+    },
+    {
+      "name": "Happy Guest 1",
+      "text": "Discover unforgettable experiences with India Travel Holiday. Whether it’s the snow-covered hills of Himachal or the vibrant streets of Rajasthan, we offer the most memorable journeys across India.",
+      "images": [
+        "https://picsum.photos/100/100?sig=0",
+        "https://picsum.photos/400/300?sig=10"
+      ]
+    },
+    {
+      "name": "Happy Guest 4",
+      "text": "Sunshine, beaches, backwaters, and serenity. Discover the beauty of Kerala and Goa with our tailored tours that bring you the best of India’s coastal paradise.",
+      "images": [
+        "https://picsum.photos/100/100?sig=3",
+        "https://picsum.photos/400/300?sig=13"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+.aboutPage {
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+.heroContent h1 {
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.heroContent p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* ================= STATS SECTION ================= */
+.stats {
+    padding: 80px 6%;
+    background: #fdfdfd;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 5;
+}
+
+.statItem {
+    background: #fff;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.statItem:hover {
+    transform: translateY(-10px);
+}
+
+.statItem h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ff385c;
+    margin-bottom: 5px;
+}
+
+.statItem p {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* ================= OUR STORY ================= */
+.storySection {
+    padding: 100px 6%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background: #fff;
+}
+
+.storyContent {
+    flex: 1;
+}
+
+.storyContent h3 {
+    color: #ff385c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.storyContent h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.storyContent p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.storyImage {
+    flex: 1;
+    position: relative;
+}
+
+.storyImage img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* ================= FEATURES ================= */
+.features {
+    padding: 100px 6%;
+    background: #0f1f38;
+    color: #fff;
+}
+
+.featuresHeader {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 80px;
+}
+
+.featuresHeader h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.featureCard {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 50px 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.featureIcon {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.featureCard h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.featureCard p {
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* ================= TEAM ================= */
+.teamSection {
+    padding: 100px 6%;
+    text-align: center;
+}
+
+.valuesSection {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px 6%;
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.valueItem {
+    text-align: center;
+    max-width: 250px;
+}
+
+.valueItem span {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.valueItem h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.valueItem p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.teamHeader h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.teamGrid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.teamMember {
+    width: 280px;
+}
+
+.teamMember img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 25px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
+
+.teamMember:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.teamMember h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.teamMember p {
+    color: #ff385c;
+    font-weight: 600;
+}
+
+/* ================= CTA ================= */
+.cta {
+    padding: 100px 6%;
+    text-align: center;
+    background: linear-gradient(135deg, #ff385c, #ff6b4a);
+    color: #fff;
+}
+
+.cta h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.ctaBtn {
+    background: #fff;
+    color: #ff385c;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.ctaBtn:hover {
+    transform: scale(1.1);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+    .storySection {
+        flex-direction: column;
+        text-align: center;
+    }
+}

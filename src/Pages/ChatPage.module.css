@@ -1,0 +1,411 @@
+.pageWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f8fafc;
+}
+
+.mainContent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.chatContainer {
+    width: 100%;
+    max-width: 1300px;
+    /* Wider for full screen feel */
+    height: 780px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.chatHeader {
+    padding: 1rem;
+    background: linear-gradient(135deg, #e0f2fe 0%, #fae8ff 100%);
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.backBtn {
+    background: white;
+    border: 2px solid #e2e8f0;
+    color: #64748b;
+    padding: 1rem;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.backBtn:hover {
+    background: #f1f5f9;
+    transform: translateX(-5px);
+    border-color: #cbd5e1;
+}
+
+.botInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.botInfo img {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.botIcon {
+    font-size: 2.5rem;
+    color: #a855f7;
+    background: white;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(168, 85, 247, 0.15);
+}
+
+.botInfo h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botInfo span {
+    font-size: 1rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+/* Messages Container */
+.messagesContainer {
+    flex: 1;
+    padding: 50px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image:
+        radial-gradient(#f1f5f9 2px, transparent 2px),
+        radial-gradient(#f1f5f9 2px, transparent 2px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+}
+
+.messageWrap {
+    display: flex;
+    gap: 15px;
+    max-width: 80%;
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bot {
+    align-self: flex-start;
+}
+
+.user {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.botAvatar {
+    width: 5rem;
+    height: 5rem;
+    min-width: 5rem;
+    background: #fdf2f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(251, 207, 232, 0.5);
+}
+
+.botAvatar img {
+    width: 100%;
+}
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bubble {
+    padding: 24px 35px;
+    border-radius: 32px;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    font-weight: 500;
+    box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.05);
+}
+
+.bot .bubble {
+    background: white;
+    color: #1e293b;
+    border-top-left-radius: 6px;
+}
+
+.user .bubble {
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+    color: white;
+    border-top-right-radius: 6px;
+    box-shadow: 0 20px 40px rgba(168, 85, 247, 0.2);
+}
+
+.timestamp {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.user .timestamp {
+    text-align: right;
+}
+
+/* Quick Options */
+.quickOptions {
+    padding: 0 50px 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.quickOptions button {
+    background: white;
+    border: 2.5px solid #f1f5f9;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #64748b;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.quickOptions button:nth-child(1):hover {
+    border-color: #a5f3fc;
+    color: #0891b2;
+    background: #ecfeff;
+    transform: translateY(-3px);
+}
+
+.quickOptions button:nth-child(2):hover {
+    border-color: #bbf7d0;
+    color: #16a34a;
+    background: #f0fdf4;
+    transform: translateY(-3px);
+}
+
+.quickOptions button:nth-child(3):hover {
+    border-color: #ddd6fe;
+    color: #7c3aed;
+    background: #f5f3ff;
+    transform: translateY(-3px);
+}
+
+.quickOptions button:nth-child(4):hover {
+    border-color: #fecaca;
+    color: #dc2626;
+    background: #fef2f2;
+    transform: translateY(-3px);
+}
+
+/* Input Section */
+.inputSection {
+    padding: 40px 50px;
+    border-top: 3px solid #f8fbff;
+    display: flex;
+    gap: 25px;
+    background: white;
+}
+
+.inputSection input {
+    flex: 1;
+    padding: 20px 35px;
+    border: 3px solid #f1f5f9;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+}
+
+.inputSection input:focus {
+    border-color: #a855f7;
+    background: white;
+    box-shadow: 0 0 0 5px rgba(168, 85, 247, 0.1);
+}
+
+.sendBigBtn {
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+    color: white;
+    border: none;
+    padding: 0 50px;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 15px 30px rgba(168, 85, 247, 0.3);
+    height: 70px;
+}
+
+.sendBigBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(168, 85, 247, 0.4);
+}
+
+/* Typing indicator */
+.typing {
+    display: flex;
+    gap: 8px;
+    padding: 20px 30px;
+    background: #f8fafc;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+
+.typing span {
+    width: 10px;
+    height: 10px;
+    background: #cbd5e1;
+    border-radius: 50%;
+    animation: bounce 1.4s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .mainContent {
+        padding: 0 !important;
+        height: 100vh;
+        display: block !important;
+    }
+
+    .chatContainer {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 100vh !important;
+        border-radius: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .chatHeader {
+        padding: 1rem !important;
+        gap: 12px !important;
+    }
+
+    .backBtn {
+        padding: 8px 12px !important;
+        min-width: unset !important;
+    }
+
+    .backBtn span {
+        display: none !important;
+    }
+
+    .botInfo h2 {
+        font-size: 1.1rem !important;
+    }
+
+    .messagesContainer {
+        padding: 15px !important;
+        gap: 15px !important;
+    }
+
+    .messageWrap {
+        max-width: 92% !important;
+    }
+
+    .bubble {
+        padding: 12px 18px !important;
+        font-size: 0.95rem !important;
+        border-radius: 20px !important;
+    }
+
+    .botAvatar {
+        width: 3rem !important;
+        height: 3rem !important;
+        min-width: 3rem !important;
+    }
+
+    .quickOptions {
+        padding: 10px 15px !important;
+        gap: 8px !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .quickOptions button {
+        padding: 6px 15px !important;
+        font-size: 0.8rem !important;
+        flex-shrink: 0 !important;
+    }
+
+    .inputSection {
+        padding: 12px 15px 30px !important;
+        gap: 10px !important;
+    }
+
+    .inputSection input {
+        padding: 12px 15px !important;
+        font-size: 1rem !important;
+    }
+
+    .sendBigBtn {
+        padding: 0 15px !important;
+        height: 48px !important;
+        min-width: 48px !important;
+    }
+
+    .sendBigBtn span {
+        display: none !important;
+    }
+}

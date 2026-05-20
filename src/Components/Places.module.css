@@ -1,0 +1,106 @@
+.placesSection {
+  position: relative;
+  background: transparent;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.placesSection::before,
+.placesSection::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  /* Wider to show more of the skyline */
+  height: 100%;
+  background-image: url('https://freepngimg.com/download/city/37433-7-city-skyline-silhouette-transparent.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  /* Slightly more visible */
+  pointer-events: none;
+  filter: sepia(1) saturate(1.5) hue-rotate(-30deg) brightness(1.2);
+  z-index: 0;
+}
+
+.placesSection::before {
+  left: -150px;
+  background-position: left bottom;
+}
+
+.placesSection::after {
+  right: -150px;
+  background-position: right bottom;
+  transform: scaleX(-1);
+  /* Flip for variety */
+}
+
+.header {
+  padding: 2rem 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.header h2 {
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+.header h2 span {
+  color: #ff5722;
+}
+
+.header p {
+  color: #666;
+  margin-top: 6px;
+}
+
+
+.injectedContent {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.gridContainer {
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.tripsHeader {
+  padding: 2rem 5rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.tripsHeader h1 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.tripsHeader p {
+  color: #64748b;
+  font-size: 1.05rem;
+}
+
+.noResults {
+  margin: 2.5rem auto 0;
+  width: 100%;
+  max-width: 820px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  padding: 26px 22px;
+  text-align: center;
+}
+
+.noResults p {
+  color: #334155;
+  font-weight: 600;
+}

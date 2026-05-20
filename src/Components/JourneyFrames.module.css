@@ -1,0 +1,178 @@
+/* ================= WRAPPER ================= */
+.wrapper {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.wrapper p {
+  color: #94a3b8;
+  margin-bottom: 50px;
+}
+
+/* ================= CAROUSEL ================= */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 620px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* ================= CARD BASE ================= */
+.card {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+
+  border-radius: 24px;
+  overflow: hidden;
+
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ================= LOCATION LABEL ================= */
+.card span {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+  background: rgba(0,0,0,0.6);
+  color: white;
+
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ================= CENTER CARD ================= */
+.center {
+  transform: translateX(0) scale(1.25);
+  z-index: 5;
+}
+
+/* ================= SIDE CARDS ================= */
+.left {
+  transform: translateX(-340px) rotate(-8deg) scale(1);
+  z-index: 4;
+}
+
+.right {
+  transform: translateX(340px) rotate(8deg) scale(1);
+  z-index: 4;
+}
+
+/* ================= DEPTH CARDS ================= */
+.leftFar {
+  transform: translateX(-640px) rotate(-10deg) scale(0.92);
+  z-index: 3;
+}
+
+.rightFar {
+  transform: translateX(640px) rotate(10deg) scale(0.92);
+  z-index: 3;
+}
+
+/* ================= HIDDEN CARDS ================= */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ================= ARROWS ================= */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: 30px;
+  border: none;
+
+  background: #1db4b6;
+  color: white;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  z-index: 10;
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background: #159a9c;
+}
+
+.arrow:first-of-type {
+  left: 40px;
+}
+
+.arrow:last-of-type {
+  right: 40px;
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+
+  .left {
+    transform: translateX(-260px) rotate(-6deg) scale(0.95);
+  }
+
+  .right {
+    transform: translateX(260px) rotate(6deg) scale(0.95);
+  }
+
+  .leftFar,
+  .rightFar {
+    display: none;
+  }
+
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .card {
+    width: 220px;
+    height: 320px;
+  }
+
+  .center {
+    transform: translateX(0) scale(1.15);
+  }
+
+  .left {
+    transform: translateX(-200px) rotate(-6deg) scale(0.9);
+  }
+
+  .right {
+    transform: translateX(200px) rotate(6deg) scale(0.9);
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+}

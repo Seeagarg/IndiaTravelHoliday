@@ -1,0 +1,62 @@
+{
+  "heaven-himachal-tour-package": [
+    {
+      "question": "Best time to visit Heaven?",
+      "answer": "March to June and September to December are ideal."
+    },
+    {
+      "question": "Is pickup included?",
+      "answer": "Yes, from the nearest major airport or station."
+    }
+  ],
+  "dharamshala-dalhousie-amritsar-tour-package": [
+    {
+      "question": "Best time to visit Dharamshala?",
+      "answer": "March to June and September to December are ideal."
+    },
+    {
+      "question": "Is pickup included?",
+      "answer": "Yes, from the nearest major airport or station."
+    }
+  ],
+  "shimla-tour-package": [
+    {
+      "question": "Best time to visit Shimla?",
+      "answer": "March to June and September to December are ideal."
+    },
+    {
+      "question": "Is pickup included?",
+      "answer": "Yes, from the nearest major airport or station."
+    }
+  ],
+  "tirthan-valley-tour-package": [
+    {
+      "question": "Best time to visit Tirthan?",
+      "answer": "March to June and September to December are ideal."
+    },
+    {
+      "question": "Is pickup included?",
+      "answer": "Yes, from the nearest major airport or station."
+    }
+  ],
+  "leh-ladakh-with-pangong-lake-tour-package": [
+    {
+      "question": "Best time to visit Leh?",
+      "answer": "March to June and September to December are ideal."
+    },
+    {
+      "question": "Is pickup included?",
+      "answer": "Yes, from the nearest major airport or station."
+    }
+  ],
+  "kedarnath-group-tour-package-from-delhi": [
+    {
+      "question": "Best time to visit Kedarnath?",
+      "answer": "March to June and September to December are ideal."
+    },
+    {
+      "question": "Is pickup included?",
+      "answer": "Yes, from the nearest major airport or station."
+    }
+  ]
+}

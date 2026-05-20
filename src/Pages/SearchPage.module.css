@@ -1,0 +1,137 @@
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 22px;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 55vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.heroOverlay h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.heroOverlay p {
+  font-size: 18px;
+}
+
+.heroOverlay span {
+  color: #ffb703;
+  font-weight: 600;
+}
+
+.mainSearchBox {
+  margin-top: 25px;
+  background: white;
+  padding: 5px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.mainSearchBox input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 16px;
+  color: #333;
+}
+
+.mainSearchIcon {
+  position: absolute;
+  right: 20px;
+  color: #008b84;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+/* RESULTS */
+.resultsWrapper {
+  padding: 60px 80px;
+}
+
+.noResults {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+
+/* EMPTY STATE */
+.emptyState {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.emptyCard {
+  text-align: center;
+  max-width: 420px;
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.emptyIcon {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.emptyCard h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.emptyCard p {
+  font-size: 16px;
+  color: #555;
+}
+
+.emptyCard span {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.emptyHint {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #888;
+}
+
+
+

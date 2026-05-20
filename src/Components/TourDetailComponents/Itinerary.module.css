@@ -1,0 +1,358 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  background-color: #ffffff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.tab {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.activeTab {
+  background: #f97316;
+  color: #ffffff;
+}
+
+.tabContent {
+  margin-top: 30px;
+}
+
+/* Image Section */
+.imageWrapper {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.navLeft,
+.navRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navLeft {
+  left: 16px;
+}
+
+.navRight {
+  right: 16px;
+}
+
+.imageOverlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+}
+
+.imageOverlay h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.imageOverlay h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Itinerary */
+.itinerary {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.dayCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.dayHeader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.dayBadge {
+  background: #f97316;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dayTitle {
+  flex: 1;
+  font-weight: 600;
+  color: #111827;
+}
+
+.arrow {
+  font-size: 22px;
+  color: #f97316;
+}
+
+.dayContent {
+  padding: 20px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.imageGallery {
+  display: flex;
+  gap: 12px;
+  /* overflow-x: auto; */
+  height: 100%;
+  margin-bottom: 20px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.imageGallery img {
+  min-width: 250px;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.imageGallery img:hover {
+  transform: scale(1.05);
+}
+
+.description p {
+  margin-bottom: 14px;
+  line-height: 1.7;
+  color: #444;
+}
+
+
+.emptyState {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f8fafc;
+  border-radius: 24px;
+  border: 2px dashed #e2e8f0;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.emptyIcon {
+  font-size: 64px;
+  margin-bottom: 20px;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.emptyState h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.emptyState p {
+  font-size: 16px;
+  color: #64748b;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.contactBtn {
+  background: #0f172a;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.contactBtn:hover {
+  transform: translateY(-2px);
+  background: #1e293b;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+/* ------------------------------
+   Tablets (<= 900px)
+------------------------------ */
+@media (max-width: 900px) {
+  .container {
+    margin: 24px auto;
+  }
+
+  .tabs {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .tab {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .imageWrapper img {
+    height: 320px;
+  }
+
+  .imageOverlay h2 {
+    font-size: 22px;
+  }
+
+  .imageOverlay h3 {
+    font-size: 16px;
+  }
+}
+
+/* ------------------------------
+   Mobile (<= 600px)
+------------------------------ */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  /* Tabs scroll horizontally */
+  .tabs {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 8px;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none; /* Chrome */
+  }
+
+  .tab {
+    flex-shrink: 0;
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  /* Image adjustments */
+  .imageWrapper img {
+    height: 240px;
+  }
+
+  .navLeft,
+  .navRight {
+    width: 34px;
+    height: 34px;
+  }
+
+  .imageOverlay {
+    bottom: 14px;
+    left: 14px;
+  }
+
+  .imageOverlay h2 {
+    font-size: 20px;
+  }
+
+  .imageOverlay h3 {
+    font-size: 14px;
+  }
+
+  /* Itinerary cards */
+  .dayHeader {
+    padding: 14px;
+  }
+
+  .dayBadge {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .dayTitle {
+    font-size: 14px;
+  }
+
+  .arrow {
+    font-size: 20px;
+  }
+
+  .dayContent {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .imageGallery {
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  .imageGallery img {
+    min-width: 200px;
+    height: 140px;
+  }
+
+  .description p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+}
+
+
+
