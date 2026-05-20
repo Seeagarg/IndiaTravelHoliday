@@ -1,4 +1,4 @@
-export const base_url = 'http://localhost:5001';
+export const base_url = 'https://indiatravelholidaybackend.onrender.com';
 export const login_api = `${base_url}/api/auth/login`;
 export const saveDestination_api = `${base_url}/api/admin/content/destinations`;
 export const updateDestination_api = (destId) => `${base_url}/api/admin/content/destinations/${destId}`;
